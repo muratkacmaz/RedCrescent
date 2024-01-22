@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: 85ee920b45f787a42b08d53fde183cbe
+timeCreated: 1537373429
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: abRTLine_pepee_lf_elbow_line_loc
+    100002: abRTLine_pepee_lf_knee_line_loc
+    100004: abRTLine_pepee_rt_elbow_line_loc
+    100006: abRTLine_pepee_rt_knee_line_loc
+    100008: follicle1
+    100010: follicle2
+    100012: lf_armWeightJnt_grp
+    100014: lf_armWtCtrlJnt_grp
+    100016: lf_legWeightJnt_grp
+    100018: lf_legWtCtrlJnt_grp
+    100020: //RootNode
+    100022: pepee_bag1
+    100024: pepee_bag2
+    100026: pepee_bag3
+    100028: pepee_bag4
+    100030: pepee_charVars
+    100032: pepee_cog_ctrl_frzGrp
+    100034: pepee_cog_ctrl_frzGrp 1
+    100036: pepee_cogCtrl_space_switch_grp
+    100038: pepee_ctrlSpine_b_jnt
+    100040: pepee_ctrlSpine_b_jnt_frzGrp
+    100042: pepee_ctrlSpine_c_jnt
+    100044: pepee_ctrlSpine_c_jnt_frzGrp
+    100046: pepee_ctrlSpine_rig_grp
+    100048: pepee_eyeFrzGrp_space_grp
+    100050: pepee_eyeMaster_ctrl_frzGrp
+    100052: pepee_govde
+    100054: pepee_head_a_jnt
+    100056: pepee_head_ctrl_frzGrp
+    100058: pepee_head_fk_ctrl_Grp
+    100060: pepee_head_rig_grp
+    100062: pepee_headAlignFalse_Grp
+    100064: pepee_headAlignTrue_Grp
+    100066: pepee_headAutoAlign_Grp
+    100068: pepee_hip_ctrl_frzGrp
+    100070: pepee_hip_ctrl_frzGrp 1
+    100072: pepee_hip_jnt
+    100074: pepee_hipCtrl_space_switch_grp
+    100076: pepee_hiSpineCtrl_space_switch_grp
+    100078: pepee_jaw_ctrl_frzGrp
+    100080: pepee_lf_ankle_fk_ctrl_frzGrp
+    100082: pepee_lf_ankle_fk_ctrl_frzGrp 1
+    100084: pepee_lf_ankle_fk_jnt
+    100086: pepee_lf_ankle_ik_jnt
+    100088: pepee_lf_ankle_jnt
+    100090: pepee_lf_ankle_rev_rig_jnt
+    100092: pepee_lf_ankle_upJntFkCtrl_grp
+    100094: pepee_lf_ankleBallReader_Ankle_jnt
+    100096: pepee_lf_ankleBallReader_Ball_jnt
+    100098: pepee_lf_ankleBallReader_Knee_jnt
+    100100: pepee_lf_ankleBallReader_UpLeg_jnt
+    100102: pepee_lf_ankleCtrl_jnt
+    100104: pepee_lf_ankleWeight_jnt
+    100106: pepee_lf_arm_ik_ctrl_frzGrp
+    100108: pepee_lf_arm_ikHandle
+    100110: pepee_lf_arm_rig_grp
+    100112: pepee_lf_armFK_Grp
+    100114: pepee_lf_armIK_Grp
+    100116: pepee_lf_armIkCtrl_space_grp
+    100118: pepee_lf_armPvCtrlGrp_space_grp
+    100120: pepee_lf_armPvIkCtrl_dist
+    100122: pepee_lf_armPvIkCtrl_dist_ep
+    100124: pepee_lf_armPvIkCtrl_dist_sp
+    100126: pepee_lf_armStrDist_dist
+    100128: pepee_lf_armStrDist_dist_ep
+    100130: pepee_lf_armStrDist_dist_sp
+    100132: pepee_lf_ball_fk_ctrl_frzGrp
+    100134: pepee_lf_ball_fk_ctrl_frzGrp 1
+    100136: pepee_lf_ball_fk_jnt
+    100138: pepee_lf_ball_ik_jnt
+    100140: pepee_lf_ball_jnt
+    100142: pepee_lf_ball_rev_rig_jnt
+    100144: pepee_lf_ball_upJntFkCtrl_grp
+    100146: pepee_lf_ballToePar_ik_jnt
+    100148: pepee_lf_clavicle_fk_ctrl_frzGrp
+    100150: pepee_lf_clavicle_fk_ctrl_frzGrp 1
+    100152: pepee_lf_clavicle_jnt
+    100154: pepee_lf_clavicle_upJntFkCtrl_grp
+    100156: pepee_lf_elbow_fk_ctrl_frzGrp
+    100158: pepee_lf_elbow_fk_ctrl_frzGrp 1
+    100160: pepee_lf_elbow_fk_jnt
+    100162: pepee_lf_elbow_ik_jnt
+    100164: pepee_lf_elbow_jnt
+    100166: pepee_lf_elbow_line_loc
+    100168: pepee_lf_elbow_pv_ctrl_frzGrp
+    100170: pepee_lf_elbow_upJntFkCtrl_grp
+    100172: pepee_lf_elbowCtrl_jnt
+    100174: pepee_lf_elbowWeight_jnt
+    100176: pepee_lf_forearmdnTwistReader_jnt
+    100178: pepee_lf_forearmPvTwistReader_loc
+    100180: pepee_lf_forearmPvTwistReader_loc_frzGrp
+    100182: pepee_lf_forearmPvTwistReader_loc_frzGrp 1
+    100184: pepee_lf_forearmTwist_ctrl_frzGrp
+    100186: pepee_lf_forearmTwist_ikHandle
+    100188: pepee_lf_forearmTwist_loc
+    100190: pepee_lf_forearmTwist_loc_frzGrp
+    100192: pepee_lf_forearmTwistTarget_loc
+    100194: pepee_lf_forearmTwistTarget_loc_frzGrp
+    100196: pepee_lf_forearmUpTwistReader_jnt
+    100198: pepee_lf_forearmUpTwistReader_jnt_frzGrp
+    100200: pepee_lf_hand_ctrl_frzGrp
+    100202: pepee_lf_hand_ctrl_frzGrp 1
+    100204: pepee_lf_hand_jnt
+    100206: pepee_lf_hand_rig_grp
+    100208: pepee_lf_handCtrl_grp
+    100210: pepee_lf_heel_ik_ctrl_frzGrp
+    100212: pepee_lf_heel_rev_rig_jnt
+    100214: pepee_lf_index_a_jnt
+    100216: pepee_lf_index_b_jnt
+    100218: pepee_lf_index_c_jnt
+    100220: pepee_lf_index_d_jnt
+    100222: pepee_lf_indexBase_fk_ctrl_frzGrp
+    100224: pepee_lf_indexBase_fk_ctrl_frzGrp 1
+    100226: pepee_lf_indexMid_fk_ctrl_frzGrp
+    100228: pepee_lf_indexMid_fk_ctrl_frzGrp 1
+    100230: pepee_lf_indexTip_fk_ctrl_frzGrp
+    100232: pepee_lf_indexTip_fk_ctrl_frzGrp 1
+    100234: pepee_lf_knee_fk_ctrl_frzGrp
+    100236: pepee_lf_knee_fk_ctrl_frzGrp 1
+    100238: pepee_lf_knee_fk_jnt
+    100240: pepee_lf_knee_ik_jnt
+    100242: pepee_lf_knee_jnt
+    100244: pepee_lf_knee_line_loc
+    100246: pepee_lf_knee_pv_ctrl_frzGrp
+    100248: pepee_lf_knee_upJntFkCtrl_grp
+    100250: pepee_lf_kneeCtrl_jnt
+    100252: pepee_lf_kneeCtrlSplit_1_jnt
+    100254: pepee_lf_kneeWeight_jnt
+    100256: pepee_lf_kneeWeightSplit_1_jnt
+    100258: pepee_lf_leg_ikHandle
+    100260: pepee_lf_leg_rig_grp
+    100262: pepee_lf_legFK_Grp
+    100264: pepee_lf_legIK_Grp
+    100266: pepee_lf_legIkCtrl_space_grp
+    100268: pepee_lf_legPvCtrlGrp_space_grp
+    100270: pepee_lf_legPvIkCtrl_dist
+    100272: pepee_lf_legPvIkCtrl_dist_ep
+    100274: pepee_lf_legPvIkCtrl_dist_sp
+    100276: pepee_lf_legStrDist_dist
+    100278: pepee_lf_legStrDist_dist_ep
+    100280: pepee_lf_legStrDist_dist_sp
+    100282: pepee_lf_lowLegdnTwistReader_jnt
+    100284: pepee_lf_lowLegPvTwistReader_loc
+    100286: pepee_lf_lowLegPvTwistReader_loc_frzGrp
+    100288: pepee_lf_lowLegTwist_ctrl_frzGrp
+    100290: pepee_lf_lowLegTwist_ikHandle
+    100292: pepee_lf_lowLegTwist_loc
+    100294: pepee_lf_lowLegTwist_loc_frzGrp
+    100296: pepee_lf_lowLegTwistTarget_loc
+    100298: pepee_lf_lowLegTwistTarget_loc_frzGrp
+    100300: pepee_lf_lowLegUpTwistReader_jnt
+    100302: pepee_lf_lowLegUpTwistReader_jnt_frzGrp
+    100304: pepee_lf_masterIndex_ctrl_frzGrp
+    100306: pepee_lf_masterMiddle_ctrl_frzGrp
+    100308: pepee_lf_masterPinky_ctrl_frzGrp
+    100310: pepee_lf_masterRing_ctrl_frzGrp
+    100312: pepee_lf_masterThumb_ctrl_frzGrp
+    100314: pepee_lf_middle_a_jnt
+    100316: pepee_lf_middle_b_jnt
+    100318: pepee_lf_middle_c_jnt
+    100320: pepee_lf_middle_d_jnt
+    100322: pepee_lf_middleBase_fk_ctrl_frzGrp
+    100324: pepee_lf_middleBase_fk_ctrl_frzGrp 1
+    100326: pepee_lf_middleMid_fk_ctrl_frzGrp
+    100328: pepee_lf_middleMid_fk_ctrl_frzGrp 1
+    100330: pepee_lf_middleTip_fk_ctrl_frzGrp
+    100332: pepee_lf_middleTip_fk_ctrl_frzGrp 1
+    100334: pepee_lf_pinky_a_jnt
+    100336: pepee_lf_pinky_b_jnt
+    100338: pepee_lf_pinky_c_jnt
+    100340: pepee_lf_pinky_d_jnt
+    100342: pepee_lf_pinkyBase_fk_ctrl_frzGrp
+    100344: pepee_lf_pinkyBase_fk_ctrl_frzGrp 1
+    100346: pepee_lf_pinkyCup_jnt
+    100348: pepee_lf_pinkyMid_fk_ctrl_frzGrp
+    100350: pepee_lf_pinkyMid_fk_ctrl_frzGrp 1
+    100352: pepee_lf_pinkyTip_fk_ctrl_frzGrp
+    100354: pepee_lf_pinkyTip_fk_ctrl_frzGrp 1
+    100356: pepee_lf_reverseFoot_rig_grp
+    100358: pepee_lf_ring_a_jnt
+    100360: pepee_lf_ring_b_jnt
+    100362: pepee_lf_ring_c_jnt
+    100364: pepee_lf_ring_d_jnt
+    100366: pepee_lf_ringBase_fk_ctrl_frzGrp
+    100368: pepee_lf_ringBase_fk_ctrl_frzGrp 1
+    100370: pepee_lf_ringCup_jnt
+    100372: pepee_lf_ringMid_fk_ctrl_frzGrp
+    100374: pepee_lf_ringMid_fk_ctrl_frzGrp 1
+    100376: pepee_lf_ringTip_fk_ctrl_frzGrp
+    100378: pepee_lf_ringTip_fk_ctrl_frzGrp 1
+    100380: pepee_lf_thumb_a_jnt
+    100382: pepee_lf_thumb_b_jnt
+    100384: pepee_lf_thumb_c_jnt
+    100386: pepee_lf_thumb_d_jnt
+    100388: pepee_lf_thumbBase_fk_ctrl_frzGrp
+    100390: pepee_lf_thumbBase_fk_ctrl_frzGrp 1
+    100392: pepee_lf_thumbMid_fk_ctrl_frzGrp
+    100394: pepee_lf_thumbMid_fk_ctrl_frzGrp 1
+    100396: pepee_lf_thumbTip_fk_ctrl_frzGrp
+    100398: pepee_lf_thumbTip_fk_ctrl_frzGrp 1
+    100400: pepee_lf_toe_fk_jnt
+    100402: pepee_lf_toe_ik_jnt
+    100404: pepee_lf_toe_jnt
+    100406: pepee_lf_toe_rev_rig_jnt
+    100408: pepee_lf_upArm_alignFalse_grp
+    100410: pepee_lf_upArm_alignFalse_grp_frzGrp
+    100412: pepee_lf_upArm_alignTrue_grp
+    100414: pepee_lf_upArm_alignTrueLocTarg_grp
+    100416: pepee_lf_upArm_alignTrueLocTarg_grp_frzGrp
+    100418: pepee_lf_upArm_alignTrueLocTarg_grp_frzGrp 1
+    100420: pepee_lf_upArm_alignTrueWrldTarg_grp
+    100422: pepee_lf_upArm_autoAlign_rig_grp
+    100424: pepee_lf_upArm_autoAlign_rig_grp_frzGrp
+    100426: pepee_lf_upArm_fk_ctrl_frzGrp
+    100428: pepee_lf_upArm_fk_ctrl_frzGrp 1
+    100430: pepee_lf_upArm_fk_jnt
+    100432: pepee_lf_upArm_ik_jnt
+    100434: pepee_lf_upArm_jnt
+    100436: pepee_lf_upArm_upJntFkCtrlAlign_grp
+    100438: pepee_lf_upArmCtrl_jnt
+    100440: pepee_lf_upArmCtrl_jnt_frzGrp
+    100442: pepee_lf_upArmCtrlSplit_1_jnt
+    100444: pepee_lf_upArmPvCtrl_dist
+    100446: pepee_lf_upArmPvCtrl_dist_ep
+    100448: pepee_lf_upArmPvCtrl_dist_sp
+    100450: pepee_lf_upArmTwist_ikHandle
+    100452: pepee_lf_upArmTwistTarget_grp
+    100454: pepee_lf_upArmTwistTarget_grp_frzGrp
+    100456: pepee_lf_upArmTwistTarget_loc
+    100458: pepee_lf_upArmUpSplitCtrlParent_jnt
+    100460: pepee_lf_upArmUpSplitCtrlParent_jnt_frzGrp
+    100462: pepee_lf_upArmWeight_jnt
+    100464: pepee_lf_upArmWeightSplit_1_jnt
+    100466: pepee_lf_upLeg_alignFalse_grp
+    100468: pepee_lf_upLeg_alignFalse_grp_frzGrp
+    100470: pepee_lf_upLeg_alignTrue_grp
+    100472: pepee_lf_upLeg_alignTrueLocTarg_grp
+    100474: pepee_lf_upLeg_alignTrueLocTarg_grp_frzGrp
+    100476: pepee_lf_upLeg_alignTrueLocTarg_grp_frzGrp 1
+    100478: pepee_lf_upLeg_alignTrueWrldTarg_grp
+    100480: pepee_lf_upLeg_autoAlign_rig_grp
+    100482: pepee_lf_upLeg_autoAlign_rig_grp_frzGrp
+    100484: pepee_lf_upLeg_fk_ctrl_frzGrp
+    100486: pepee_lf_upLeg_fk_ctrl_frzGrp 1
+    100488: pepee_lf_upLeg_fk_jnt
+    100490: pepee_lf_upLeg_ik_jnt
+    100492: pepee_lf_upLeg_jnt
+    100494: pepee_lf_upLeg_upJntFkCtrlAlign_grp
+    100496: pepee_lf_upLegCtrl_jnt
+    100498: pepee_lf_upLegCtrl_jnt_frzGrp
+    100500: pepee_lf_upLegCtrlSplit_1_jnt
+    100502: pepee_lf_upLegDnSplitCtrlParent_jnt
+    100504: pepee_lf_upLegPvCtrl_dist
+    100506: pepee_lf_upLegPvCtrl_dist_ep
+    100508: pepee_lf_upLegPvCtrl_dist_sp
+    100510: pepee_lf_upLegTwist_ikHandle
+    100512: pepee_lf_upLegTwistTarget_grp
+    100514: pepee_lf_upLegTwistTarget_grp_frzGrp
+    100516: pepee_lf_upLegTwistTarget_loc
+    100518: pepee_lf_upLegUpSplitCtrlParent_jnt
+    100520: pepee_lf_upLegUpSplitCtrlParent_jnt_frzGrp
+    100522: pepee_lf_upLegWeight_jnt
+    100524: pepee_lf_upLegWeightSplit_1_jnt
+    100526: pepee_lf_wrist_alignFalse_grp
+    100528: pepee_lf_wrist_alignFalse_grp_frzGrp
+    100530: pepee_lf_wrist_alignTrue_grp
+    100532: pepee_lf_wrist_alignTrueLocTarg_grp
+    100534: pepee_lf_wrist_alignTrueLocTarg_grp_frzGrp
+    100536: pepee_lf_wrist_alignTrueLocTarg_grp_frzGrp 1
+    100538: pepee_lf_wrist_alignTrueWrldTarg_grp
+    100540: pepee_lf_wrist_autoAlign_rig_grp
+    100542: pepee_lf_wrist_autoAlign_rig_grp_frzGrp
+    100544: pepee_lf_wrist_fk_ctrl_frzGrp
+    100546: pepee_lf_wrist_fk_ctrl_frzGrp 1
+    100548: pepee_lf_wrist_fk_jnt
+    100550: pepee_lf_wrist_ik_jnt
+    100552: pepee_lf_wrist_jnt
+    100554: pepee_lf_wrist_upJntFkCtrlAlign_grp
+    100556: pepee_lf_wristCtrl_jnt
+    100558: pepee_lf_wristWeight_jnt
+    100560: pepee_lfArmIkCtrl_space_switch_grp
+    100562: pepee_lfLegIkCtrl_space_switch_grp
+    100564: pepee_lowSpineCtrl_space_switch_grp
+    100566: pepee_masterSpine_ctrl_frzGrp
+    100568: pepee_masterSpineCtrl_space_switch_grp
+    100570: pepee_neck_ctrl_frzGrp
+    100572: pepee_neck_ctrl_frzGrp 1
+    100574: pepee_neck_fk_ctrl_Grp
+    100576: pepee_neck_jnt
+    100578: pepee_neckAlignFalse_Grp
+    100580: pepee_neckAlignTrue_Grp
+    100582: pepee_neckAutoAlign_Grp
+    100584: pepee_pantalon
+    100586: pepee_rig_grp
+    100588: pepee_root_ctrl_PH
+    100590: pepee_root_ctrl_SN
+    100592: pepee_rootCtrl_space_switch_grp
+    100594: pepee_rt_ankle_fk_ctrl_frzGrp
+    100596: pepee_rt_ankle_fk_ctrl_frzGrp 1
+    100598: pepee_rt_ankle_fk_jnt
+    100600: pepee_rt_ankle_ik_jnt
+    100602: pepee_rt_ankle_jnt
+    100604: pepee_rt_ankle_rev_rig_jnt
+    100606: pepee_rt_ankle_upJntFkCtrl_grp
+    100608: pepee_rt_ankleBallReader_Ankle_jnt
+    100610: pepee_rt_ankleBallReader_Ball_jnt
+    100612: pepee_rt_ankleBallReader_Knee_jnt
+    100614: pepee_rt_ankleBallReader_UpLeg_jnt
+    100616: pepee_rt_ankleCtrl_jnt
+    100618: pepee_rt_ankleWeight_jnt
+    100620: pepee_rt_arm_ik_ctrl_frzGrp
+    100622: pepee_rt_arm_ikHandle
+    100624: pepee_rt_arm_rig_grp
+    100626: pepee_rt_armFK_Grp
+    100628: pepee_rt_armIK_Grp
+    100630: pepee_rt_armIkCtrl_space_grp
+    100632: pepee_rt_armPvCtrlGrp_space_grp
+    100634: pepee_rt_armPvIkCtrl_dist
+    100636: pepee_rt_armPvIkCtrl_dist_ep
+    100638: pepee_rt_armPvIkCtrl_dist_sp
+    100640: pepee_rt_armStrDist_dist
+    100642: pepee_rt_armStrDist_dist_ep
+    100644: pepee_rt_armStrDist_dist_sp
+    100646: pepee_rt_ball_fk_ctrl_frzGrp
+    100648: pepee_rt_ball_fk_ctrl_frzGrp 1
+    100650: pepee_rt_ball_fk_jnt
+    100652: pepee_rt_ball_ik_jnt
+    100654: pepee_rt_ball_jnt
+    100656: pepee_rt_ball_rev_rig_jnt
+    100658: pepee_rt_ball_upJntFkCtrl_grp
+    100660: pepee_rt_ballToePar_ik_jnt
+    100662: pepee_rt_clavicle_fk_ctrl_frzGrp
+    100664: pepee_rt_clavicle_fk_ctrl_frzGrp 1
+    100666: pepee_rt_clavicle_jnt
+    100668: pepee_rt_clavicle_upJntFkCtrl_grp
+    100670: pepee_rt_elbow_fk_ctrl_frzGrp
+    100672: pepee_rt_elbow_fk_ctrl_frzGrp 1
+    100674: pepee_rt_elbow_fk_jnt
+    100676: pepee_rt_elbow_ik_jnt
+    100678: pepee_rt_elbow_jnt
+    100680: pepee_rt_elbow_line_loc
+    100682: pepee_rt_elbow_pv_ctrl_frzGrp
+    100684: pepee_rt_elbow_upJntFkCtrl_grp
+    100686: pepee_rt_elbowCtrl_jnt
+    100688: pepee_rt_elbowWeight_jnt
+    100690: pepee_rt_forearmdnTwistReader_jnt
+    100692: pepee_rt_forearmPvTwistReader_loc
+    100694: pepee_rt_forearmPvTwistReader_loc_frzGrp
+    100696: pepee_rt_forearmPvTwistReader_loc_frzGrp 1
+    100698: pepee_rt_forearmTwist_ctrl_frzGrp
+    100700: pepee_rt_forearmTwist_ikHandle
+    100702: pepee_rt_forearmTwist_loc
+    100704: pepee_rt_forearmTwist_loc_frzGrp
+    100706: pepee_rt_forearmTwistTarget_loc
+    100708: pepee_rt_forearmTwistTarget_loc_frzGrp
+    100710: pepee_rt_forearmUpTwistReader_jnt
+    100712: pepee_rt_forearmUpTwistReader_jnt_frzGrp
+    100714: pepee_rt_hand_ctrl_frzGrp
+    100716: pepee_rt_hand_ctrl_frzGrp 1
+    100718: pepee_rt_hand_jnt
+    100720: pepee_rt_hand_rig_grp
+    100722: pepee_rt_handCtrl_grp
+    100724: pepee_rt_heel_ik_ctrl_frzGrp
+    100726: pepee_rt_heel_rev_rig_jnt
+    100728: pepee_rt_index_a_jnt
+    100730: pepee_rt_index_b_jnt
+    100732: pepee_rt_index_c_jnt
+    100734: pepee_rt_index_d_jnt
+    100736: pepee_rt_indexBase_fk_ctrl_frzGrp
+    100738: pepee_rt_indexBase_fk_ctrl_frzGrp 1
+    100740: pepee_rt_indexMid_fk_ctrl_frzGrp
+    100742: pepee_rt_indexMid_fk_ctrl_frzGrp 1
+    100744: pepee_rt_indexTip_fk_ctrl_frzGrp
+    100746: pepee_rt_indexTip_fk_ctrl_frzGrp 1
+    100748: pepee_rt_knee_fk_ctrl_frzGrp
+    100750: pepee_rt_knee_fk_ctrl_frzGrp 1
+    100752: pepee_rt_knee_fk_jnt
+    100754: pepee_rt_knee_ik_jnt
+    100756: pepee_rt_knee_jnt
+    100758: pepee_rt_knee_line_loc
+    100760: pepee_rt_knee_pv_ctrl_frzGrp
+    100762: pepee_rt_knee_upJntFkCtrl_grp
+    100764: pepee_rt_kneeCtrl_jnt
+    100766: pepee_rt_kneeCtrlSplit_1_jnt
+    100768: pepee_rt_kneeWeight_jnt
+    100770: pepee_rt_kneeWeightSplit_1_jnt
+    100772: pepee_rt_leg_ikHandle
+    100774: pepee_rt_leg_rig_grp
+    100776: pepee_rt_legFK_Grp
+    100778: pepee_rt_legIK_Grp
+    100780: pepee_rt_legIkCtrl_space_grp
+    100782: pepee_rt_legPvCtrlGrp_space_grp
+    100784: pepee_rt_legPvIkCtrl_dist
+    100786: pepee_rt_legPvIkCtrl_dist_ep
+    100788: pepee_rt_legPvIkCtrl_dist_sp
+    100790: pepee_rt_legStrDist_dist
+    100792: pepee_rt_legStrDist_dist_ep
+    100794: pepee_rt_legStrDist_dist_sp
+    100796: pepee_rt_lowLegdnTwistReader_jnt
+    100798: pepee_rt_lowLegPvTwistReader_loc
+    100800: pepee_rt_lowLegPvTwistReader_loc_frzGrp
+    100802: pepee_rt_lowLegTwist_ctrl_frzGrp
+    100804: pepee_rt_lowLegTwist_ikHandle
+    100806: pepee_rt_lowLegTwist_loc
+    100808: pepee_rt_lowLegTwist_loc_frzGrp
+    100810: pepee_rt_lowLegTwistTarget_loc
+    100812: pepee_rt_lowLegTwistTarget_loc_frzGrp
+    100814: pepee_rt_lowLegUpTwistReader_jnt
+    100816: pepee_rt_lowLegUpTwistReader_jnt_frzGrp
+    100818: pepee_rt_masterIndex_ctrl_frzGrp
+    100820: pepee_rt_masterMiddle_ctrl_frzGrp
+    100822: pepee_rt_masterPinky_ctrl_frzGrp
+    100824: pepee_rt_masterRing_ctrl_frzGrp
+    100826: pepee_rt_masterThumb_ctrl_frzGrp
+    100828: pepee_rt_middle_a_jnt
+    100830: pepee_rt_middle_b_jnt
+    100832: pepee_rt_middle_c_jnt
+    100834: pepee_rt_middle_d_jnt
+    100836: pepee_rt_middleBase_fk_ctrl_frzGrp
+    100838: pepee_rt_middleBase_fk_ctrl_frzGrp 1
+    100840: pepee_rt_middleMid_fk_ctrl_frzGrp
+    100842: pepee_rt_middleMid_fk_ctrl_frzGrp 1
+    100844: pepee_rt_middleTip_fk_ctrl_frzGrp
+    100846: pepee_rt_middleTip_fk_ctrl_frzGrp 1
+    100848: pepee_rt_pinky_a_jnt
+    100850: pepee_rt_pinky_b_jnt
+    100852: pepee_rt_pinky_c_jnt
+    100854: pepee_rt_pinky_d_jnt
+    100856: pepee_rt_pinkyBase_fk_ctrl_frzGrp
+    100858: pepee_rt_pinkyBase_fk_ctrl_frzGrp 1
+    100860: pepee_rt_pinkyCup_jnt
+    100862: pepee_rt_pinkyMid_fk_ctrl_frzGrp
+    100864: pepee_rt_pinkyMid_fk_ctrl_frzGrp 1
+    100866: pepee_rt_pinkyTip_fk_ctrl_frzGrp
+    100868: pepee_rt_pinkyTip_fk_ctrl_frzGrp 1
+    100870: pepee_rt_reverseFoot_rig_grp
+    100872: pepee_rt_ring_a_jnt
+    100874: pepee_rt_ring_b_jnt
+    100876: pepee_rt_ring_c_jnt
+    100878: pepee_rt_ring_d_jnt
+    100880: pepee_rt_ringBase_fk_ctrl_frzGrp
+    100882: pepee_rt_ringBase_fk_ctrl_frzGrp 1
+    100884: pepee_rt_ringCup_jnt
+    100886: pepee_rt_ringMid_fk_ctrl_frzGrp
+    100888: pepee_rt_ringMid_fk_ctrl_frzGrp 1
+    100890: pepee_rt_ringTip_fk_ctrl_frzGrp
+    100892: pepee_rt_ringTip_fk_ctrl_frzGrp 1
+    100894: pepee_rt_thumb_a_jnt
+    100896: pepee_rt_thumb_b_jnt
+    100898: pepee_rt_thumb_c_jnt
+    100900: pepee_rt_thumb_d_jnt
+    100902: pepee_rt_thumbBase_fk_ctrl_frzGrp
+    100904: pepee_rt_thumbBase_fk_ctrl_frzGrp 1
+    100906: pepee_rt_thumbMid_fk_ctrl_frzGrp
+    100908: pepee_rt_thumbMid_fk_ctrl_frzGrp 1
+    100910: pepee_rt_thumbTip_fk_ctrl_frzGrp
+    100912: pepee_rt_thumbTip_fk_ctrl_frzGrp 1
+    100914: pepee_rt_toe_fk_jnt
+    100916: pepee_rt_toe_ik_jnt
+    100918: pepee_rt_toe_jnt
+    100920: pepee_rt_toe_rev_rig_jnt
+    100922: pepee_rt_upArm_alignFalse_grp
+    100924: pepee_rt_upArm_alignFalse_grp_frzGrp
+    100926: pepee_rt_upArm_alignTrue_grp
+    100928: pepee_rt_upArm_alignTrueLocTarg_grp
+    100930: pepee_rt_upArm_alignTrueLocTarg_grp_frzGrp
+    100932: pepee_rt_upArm_alignTrueLocTarg_grp_frzGrp 1
+    100934: pepee_rt_upArm_alignTrueWrldTarg_grp
+    100936: pepee_rt_upArm_autoAlign_rig_grp
+    100938: pepee_rt_upArm_autoAlign_rig_grp_frzGrp
+    100940: pepee_rt_upArm_fk_ctrl_frzGrp
+    100942: pepee_rt_upArm_fk_ctrl_frzGrp 1
+    100944: pepee_rt_upArm_fk_jnt
+    100946: pepee_rt_upArm_ik_jnt
+    100948: pepee_rt_upArm_jnt
+    100950: pepee_rt_upArm_upJntFkCtrlAlign_grp
+    100952: pepee_rt_upArmCtrl_jnt
+    100954: pepee_rt_upArmCtrl_jnt_frzGrp
+    100956: pepee_rt_upArmCtrlSplit_1_jnt
+    100958: pepee_rt_upArmPvCtrl_dist
+    100960: pepee_rt_upArmPvCtrl_dist_ep
+    100962: pepee_rt_upArmPvCtrl_dist_sp
+    100964: pepee_rt_upArmTwist_ikHandle
+    100966: pepee_rt_upArmTwistTarget_grp
+    100968: pepee_rt_upArmTwistTarget_grp_frzGrp
+    100970: pepee_rt_upArmTwistTarget_loc
+    100972: pepee_rt_upArmUpSplitCtrlParent_jnt
+    100974: pepee_rt_upArmUpSplitCtrlParent_jnt_frzGrp
+    100976: pepee_rt_upArmWeight_jnt
+    100978: pepee_rt_upArmWeightSplit_1_jnt
+    100980: pepee_rt_upLeg_alignFalse_grp
+    100982: pepee_rt_upLeg_alignFalse_grp_frzGrp
+    100984: pepee_rt_upLeg_alignTrue_grp
+    100986: pepee_rt_upLeg_alignTrueLocTarg_grp
+    100988: pepee_rt_upLeg_alignTrueLocTarg_grp_frzGrp
+    100990: pepee_rt_upLeg_alignTrueLocTarg_grp_frzGrp 1
+    100992: pepee_rt_upLeg_alignTrueWrldTarg_grp
+    100994: pepee_rt_upLeg_autoAlign_rig_grp
+    100996: pepee_rt_upLeg_autoAlign_rig_grp_frzGrp
+    100998: pepee_rt_upLeg_fk_ctrl_frzGrp
+    101000: pepee_rt_upLeg_fk_ctrl_frzGrp 1
+    101002: pepee_rt_upLeg_fk_jnt
+    101004: pepee_rt_upLeg_ik_jnt
+    101006: pepee_rt_upLeg_jnt
+    101008: pepee_rt_upLeg_upJntFkCtrlAlign_grp
+    101010: pepee_rt_upLegCtrl_jnt
+    101012: pepee_rt_upLegCtrl_jnt_frzGrp
+    101014: pepee_rt_upLegCtrlSplit_1_jnt
+    101016: pepee_rt_upLegDnSplitCtrlParent_jnt
+    101018: pepee_rt_upLegPvCtrl_dist
+    101020: pepee_rt_upLegPvCtrl_dist_ep
+    101022: pepee_rt_upLegPvCtrl_dist_sp
+    101024: pepee_rt_upLegTwist_ikHandle
+    101026: pepee_rt_upLegTwistTarget_grp
+    101028: pepee_rt_upLegTwistTarget_grp_frzGrp
+    101030: pepee_rt_upLegTwistTarget_loc
+    101032: pepee_rt_upLegUpSplitCtrlParent_jnt
+    101034: pepee_rt_upLegUpSplitCtrlParent_jnt_frzGrp
+    101036: pepee_rt_upLegWeight_jnt
+    101038: pepee_rt_upLegWeightSplit_1_jnt
+    101040: pepee_rt_wrist_alignFalse_grp
+    101042: pepee_rt_wrist_alignFalse_grp_frzGrp
+    101044: pepee_rt_wrist_alignTrue_grp
+    101046: pepee_rt_wrist_alignTrueLocTarg_grp
+    101048: pepee_rt_wrist_alignTrueLocTarg_grp_frzGrp
+    101050: pepee_rt_wrist_alignTrueLocTarg_grp_frzGrp 1
+    101052: pepee_rt_wrist_alignTrueWrldTarg_grp
+    101054: pepee_rt_wrist_autoAlign_rig_grp
+    101056: pepee_rt_wrist_autoAlign_rig_grp_frzGrp
+    101058: pepee_rt_wrist_fk_ctrl_frzGrp
+    101060: pepee_rt_wrist_fk_ctrl_frzGrp 1
+    101062: pepee_rt_wrist_fk_jnt
+    101064: pepee_rt_wrist_ik_jnt
+    101066: pepee_rt_wrist_jnt
+    101068: pepee_rt_wrist_upJntFkCtrlAlign_grp
+    101070: pepee_rt_wristCtrl_jnt
+    101072: pepee_rt_wristWeight_jnt
+    101074: pepee_rtArmIkCtrl_space_switch_grp
+    101076: pepee_rtLegIkCtrl_space_switch_grp
+    101078: pepee_sac
+    101080: pepee_sagayak
+    101082: pepee_sapka1
+    101084: pepee_sapka2
+    101086: pepee_sapka_top
+    101088: pepee_sapka_top2
+    101090: pepee_Skeleton_grp
+    101092: pepee_solayak
+    101094: pepee_spine_end_jnt
+    101096: pepee_spine_hi_jnt
+    101098: pepee_spine_low_jnt
+    101100: pepee_spine_mid_jnt
+    101102: pepee_spine_ribbon_surf
+    101104: pepee_spine_rig_grp
+    101106: pepee_spineHigh_ctrl_frzGrp
+    101108: pepee_spineHigh_ctrl_frzGrp 1
+    101110: pepee_spineLow_ctrl_frzGrp
+    101112: pepee_spineLow_ctrl_frzGrp 1
+    101114: pepee_spineMid_1_ctrl_frzGrp
+    101116: pepee_spineMid_1_ctrl_frzGrp 1
+    101118: pepee_spineNoScale_rig_grp
+    101120: pepee_spineRhFollicles_grp
+    101122: pepee_spineShaper_ctrl_frzGrp
+    101124: pepee_spineShaper_ctrl_frzGrp 1
+    101126: pepee_spineShaper_jnt
+    101128: pepee_tsort
+    101130: pepee_weightSpine_b_jnt
+    101132: pepee_weightSpine_c_jnt
+    101134: rt_armWeightJnt_grp
+    101136: rt_armWtCtrlJnt_grp
+    101138: rt_legWeightJnt_grp
+    101140: rt_legWtCtrlJnt_grp
+    101142: sapka_grp
+    101144: weightSpine_grp
+    400000: abRTLine_pepee_lf_elbow_line_loc
+    400002: abRTLine_pepee_lf_knee_line_loc
+    400004: abRTLine_pepee_rt_elbow_line_loc
+    400006: abRTLine_pepee_rt_knee_line_loc
+    400008: follicle1
+    400010: follicle2
+    400012: lf_armWeightJnt_grp
+    400014: lf_armWtCtrlJnt_grp
+    400016: lf_legWeightJnt_grp
+    400018: lf_legWtCtrlJnt_grp
+    400020: //RootNode
+    400022: pepee_bag1
+    400024: pepee_bag2
+    400026: pepee_bag3
+    400028: pepee_bag4
+    400030: pepee_charVars
+    400032: pepee_cog_ctrl_frzGrp
+    400034: pepee_cog_ctrl_frzGrp 1
+    400036: pepee_cogCtrl_space_switch_grp
+    400038: pepee_ctrlSpine_b_jnt
+    400040: pepee_ctrlSpine_b_jnt_frzGrp
+    400042: pepee_ctrlSpine_c_jnt
+    400044: pepee_ctrlSpine_c_jnt_frzGrp
+    400046: pepee_ctrlSpine_rig_grp
+    400048: pepee_eyeFrzGrp_space_grp
+    400050: pepee_eyeMaster_ctrl_frzGrp
+    400052: pepee_govde
+    400054: pepee_head_a_jnt
+    400056: pepee_head_ctrl_frzGrp
+    400058: pepee_head_fk_ctrl_Grp
+    400060: pepee_head_rig_grp
+    400062: pepee_headAlignFalse_Grp
+    400064: pepee_headAlignTrue_Grp
+    400066: pepee_headAutoAlign_Grp
+    400068: pepee_hip_ctrl_frzGrp
+    400070: pepee_hip_ctrl_frzGrp 1
+    400072: pepee_hip_jnt
+    400074: pepee_hipCtrl_space_switch_grp
+    400076: pepee_hiSpineCtrl_space_switch_grp
+    400078: pepee_jaw_ctrl_frzGrp
+    400080: pepee_lf_ankle_fk_ctrl_frzGrp
+    400082: pepee_lf_ankle_fk_ctrl_frzGrp 1
+    400084: pepee_lf_ankle_fk_jnt
+    400086: pepee_lf_ankle_ik_jnt
+    400088: pepee_lf_ankle_jnt
+    400090: pepee_lf_ankle_rev_rig_jnt
+    400092: pepee_lf_ankle_upJntFkCtrl_grp
+    400094: pepee_lf_ankleBallReader_Ankle_jnt
+    400096: pepee_lf_ankleBallReader_Ball_jnt
+    400098: pepee_lf_ankleBallReader_Knee_jnt
+    400100: pepee_lf_ankleBallReader_UpLeg_jnt
+    400102: pepee_lf_ankleCtrl_jnt
+    400104: pepee_lf_ankleWeight_jnt
+    400106: pepee_lf_arm_ik_ctrl_frzGrp
+    400108: pepee_lf_arm_ikHandle
+    400110: pepee_lf_arm_rig_grp
+    400112: pepee_lf_armFK_Grp
+    400114: pepee_lf_armIK_Grp
+    400116: pepee_lf_armIkCtrl_space_grp
+    400118: pepee_lf_armPvCtrlGrp_space_grp
+    400120: pepee_lf_armPvIkCtrl_dist
+    400122: pepee_lf_armPvIkCtrl_dist_ep
+    400124: pepee_lf_armPvIkCtrl_dist_sp
+    400126: pepee_lf_armStrDist_dist
+    400128: pepee_lf_armStrDist_dist_ep
+    400130: pepee_lf_armStrDist_dist_sp
+    400132: pepee_lf_ball_fk_ctrl_frzGrp
+    400134: pepee_lf_ball_fk_ctrl_frzGrp 1
+    400136: pepee_lf_ball_fk_jnt
+    400138: pepee_lf_ball_ik_jnt
+    400140: pepee_lf_ball_jnt
+    400142: pepee_lf_ball_rev_rig_jnt
+    400144: pepee_lf_ball_upJntFkCtrl_grp
+    400146: pepee_lf_ballToePar_ik_jnt
+    400148: pepee_lf_clavicle_fk_ctrl_frzGrp
+    400150: pepee_lf_clavicle_fk_ctrl_frzGrp 1
+    400152: pepee_lf_clavicle_jnt
+    400154: pepee_lf_clavicle_upJntFkCtrl_grp
+    400156: pepee_lf_elbow_fk_ctrl_frzGrp
+    400158: pepee_lf_elbow_fk_ctrl_frzGrp 1
+    400160: pepee_lf_elbow_fk_jnt
+    400162: pepee_lf_elbow_ik_jnt
+    400164: pepee_lf_elbow_jnt
+    400166: pepee_lf_elbow_line_loc
+    400168: pepee_lf_elbow_pv_ctrl_frzGrp
+    400170: pepee_lf_elbow_upJntFkCtrl_grp
+    400172: pepee_lf_elbowCtrl_jnt
+    400174: pepee_lf_elbowWeight_jnt
+    400176: pepee_lf_forearmdnTwistReader_jnt
+    400178: pepee_lf_forearmPvTwistReader_loc
+    400180: pepee_lf_forearmPvTwistReader_loc_frzGrp
+    400182: pepee_lf_forearmPvTwistReader_loc_frzGrp 1
+    400184: pepee_lf_forearmTwist_ctrl_frzGrp
+    400186: pepee_lf_forearmTwist_ikHandle
+    400188: pepee_lf_forearmTwist_loc
+    400190: pepee_lf_forearmTwist_loc_frzGrp
+    400192: pepee_lf_forearmTwistTarget_loc
+    400194: pepee_lf_forearmTwistTarget_loc_frzGrp
+    400196: pepee_lf_forearmUpTwistReader_jnt
+    400198: pepee_lf_forearmUpTwistReader_jnt_frzGrp
+    400200: pepee_lf_hand_ctrl_frzGrp
+    400202: pepee_lf_hand_ctrl_frzGrp 1
+    400204: pepee_lf_hand_jnt
+    400206: pepee_lf_hand_rig_grp
+    400208: pepee_lf_handCtrl_grp
+    400210: pepee_lf_heel_ik_ctrl_frzGrp
+    400212: pepee_lf_heel_rev_rig_jnt
+    400214: pepee_lf_index_a_jnt
+    400216: pepee_lf_index_b_jnt
+    400218: pepee_lf_index_c_jnt
+    400220: pepee_lf_index_d_jnt
+    400222: pepee_lf_indexBase_fk_ctrl_frzGrp
+    400224: pepee_lf_indexBase_fk_ctrl_frzGrp 1
+    400226: pepee_lf_indexMid_fk_ctrl_frzGrp
+    400228: pepee_lf_indexMid_fk_ctrl_frzGrp 1
+    400230: pepee_lf_indexTip_fk_ctrl_frzGrp
+    400232: pepee_lf_indexTip_fk_ctrl_frzGrp 1
+    400234: pepee_lf_knee_fk_ctrl_frzGrp
+    400236: pepee_lf_knee_fk_ctrl_frzGrp 1
+    400238: pepee_lf_knee_fk_jnt
+    400240: pepee_lf_knee_ik_jnt
+    400242: pepee_lf_knee_jnt
+    400244: pepee_lf_knee_line_loc
+    400246: pepee_lf_knee_pv_ctrl_frzGrp
+    400248: pepee_lf_knee_upJntFkCtrl_grp
+    400250: pepee_lf_kneeCtrl_jnt
+    400252: pepee_lf_kneeCtrlSplit_1_jnt
+    400254: pepee_lf_kneeWeight_jnt
+    400256: pepee_lf_kneeWeightSplit_1_jnt
+    400258: pepee_lf_leg_ikHandle
+    400260: pepee_lf_leg_rig_grp
+    400262: pepee_lf_legFK_Grp
+    400264: pepee_lf_legIK_Grp
+    400266: pepee_lf_legIkCtrl_space_grp
+    400268: pepee_lf_legPvCtrlGrp_space_grp
+    400270: pepee_lf_legPvIkCtrl_dist
+    400272: pepee_lf_legPvIkCtrl_dist_ep
+    400274: pepee_lf_legPvIkCtrl_dist_sp
+    400276: pepee_lf_legStrDist_dist
+    400278: pepee_lf_legStrDist_dist_ep
+    400280: pepee_lf_legStrDist_dist_sp
+    400282: pepee_lf_lowLegdnTwistReader_jnt
+    400284: pepee_lf_lowLegPvTwistReader_loc
+    400286: pepee_lf_lowLegPvTwistReader_loc_frzGrp
+    400288: pepee_lf_lowLegTwist_ctrl_frzGrp
+    400290: pepee_lf_lowLegTwist_ikHandle
+    400292: pepee_lf_lowLegTwist_loc
+    400294: pepee_lf_lowLegTwist_loc_frzGrp
+    400296: pepee_lf_lowLegTwistTarget_loc
+    400298: pepee_lf_lowLegTwistTarget_loc_frzGrp
+    400300: pepee_lf_lowLegUpTwistReader_jnt
+    400302: pepee_lf_lowLegUpTwistReader_jnt_frzGrp
+    400304: pepee_lf_masterIndex_ctrl_frzGrp
+    400306: pepee_lf_masterMiddle_ctrl_frzGrp
+    400308: pepee_lf_masterPinky_ctrl_frzGrp
+    400310: pepee_lf_masterRing_ctrl_frzGrp
+    400312: pepee_lf_masterThumb_ctrl_frzGrp
+    400314: pepee_lf_middle_a_jnt
+    400316: pepee_lf_middle_b_jnt
+    400318: pepee_lf_middle_c_jnt
+    400320: pepee_lf_middle_d_jnt
+    400322: pepee_lf_middleBase_fk_ctrl_frzGrp
+    400324: pepee_lf_middleBase_fk_ctrl_frzGrp 1
+    400326: pepee_lf_middleMid_fk_ctrl_frzGrp
+    400328: pepee_lf_middleMid_fk_ctrl_frzGrp 1
+    400330: pepee_lf_middleTip_fk_ctrl_frzGrp
+    400332: pepee_lf_middleTip_fk_ctrl_frzGrp 1
+    400334: pepee_lf_pinky_a_jnt
+    400336: pepee_lf_pinky_b_jnt
+    400338: pepee_lf_pinky_c_jnt
+    400340: pepee_lf_pinky_d_jnt
+    400342: pepee_lf_pinkyBase_fk_ctrl_frzGrp
+    400344: pepee_lf_pinkyBase_fk_ctrl_frzGrp 1
+    400346: pepee_lf_pinkyCup_jnt
+    400348: pepee_lf_pinkyMid_fk_ctrl_frzGrp
+    400350: pepee_lf_pinkyMid_fk_ctrl_frzGrp 1
+    400352: pepee_lf_pinkyTip_fk_ctrl_frzGrp
+    400354: pepee_lf_pinkyTip_fk_ctrl_frzGrp 1
+    400356: pepee_lf_reverseFoot_rig_grp
+    400358: pepee_lf_ring_a_jnt
+    400360: pepee_lf_ring_b_jnt
+    400362: pepee_lf_ring_c_jnt
+    400364: pepee_lf_ring_d_jnt
+    400366: pepee_lf_ringBase_fk_ctrl_frzGrp
+    400368: pepee_lf_ringBase_fk_ctrl_frzGrp 1
+    400370: pepee_lf_ringCup_jnt
+    400372: pepee_lf_ringMid_fk_ctrl_frzGrp
+    400374: pepee_lf_ringMid_fk_ctrl_frzGrp 1
+    400376: pepee_lf_ringTip_fk_ctrl_frzGrp
+    400378: pepee_lf_ringTip_fk_ctrl_frzGrp 1
+    400380: pepee_lf_thumb_a_jnt
+    400382: pepee_lf_thumb_b_jnt
+    400384: pepee_lf_thumb_c_jnt
+    400386: pepee_lf_thumb_d_jnt
+    400388: pepee_lf_thumbBase_fk_ctrl_frzGrp
+    400390: pepee_lf_thumbBase_fk_ctrl_frzGrp 1
+    400392: pepee_lf_thumbMid_fk_ctrl_frzGrp
+    400394: pepee_lf_thumbMid_fk_ctrl_frzGrp 1
+    400396: pepee_lf_thumbTip_fk_ctrl_frzGrp
+    400398: pepee_lf_thumbTip_fk_ctrl_frzGrp 1
+    400400: pepee_lf_toe_fk_jnt
+    400402: pepee_lf_toe_ik_jnt
+    400404: pepee_lf_toe_jnt
+    400406: pepee_lf_toe_rev_rig_jnt
+    400408: pepee_lf_upArm_alignFalse_grp
+    400410: pepee_lf_upArm_alignFalse_grp_frzGrp
+    400412: pepee_lf_upArm_alignTrue_grp
+    400414: pepee_lf_upArm_alignTrueLocTarg_grp
+    400416: pepee_lf_upArm_alignTrueLocTarg_grp_frzGrp
+    400418: pepee_lf_upArm_alignTrueLocTarg_grp_frzGrp 1
+    400420: pepee_lf_upArm_alignTrueWrldTarg_grp
+    400422: pepee_lf_upArm_autoAlign_rig_grp
+    400424: pepee_lf_upArm_autoAlign_rig_grp_frzGrp
+    400426: pepee_lf_upArm_fk_ctrl_frzGrp
+    400428: pepee_lf_upArm_fk_ctrl_frzGrp 1
+    400430: pepee_lf_upArm_fk_jnt
+    400432: pepee_lf_upArm_ik_jnt
+    400434: pepee_lf_upArm_jnt
+    400436: pepee_lf_upArm_upJntFkCtrlAlign_grp
+    400438: pepee_lf_upArmCtrl_jnt
+    400440: pepee_lf_upArmCtrl_jnt_frzGrp
+    400442: pepee_lf_upArmCtrlSplit_1_jnt
+    400444: pepee_lf_upArmPvCtrl_dist
+    400446: pepee_lf_upArmPvCtrl_dist_ep
+    400448: pepee_lf_upArmPvCtrl_dist_sp
+    400450: pepee_lf_upArmTwist_ikHandle
+    400452: pepee_lf_upArmTwistTarget_grp
+    400454: pepee_lf_upArmTwistTarget_grp_frzGrp
+    400456: pepee_lf_upArmTwistTarget_loc
+    400458: pepee_lf_upArmUpSplitCtrlParent_jnt
+    400460: pepee_lf_upArmUpSplitCtrlParent_jnt_frzGrp
+    400462: pepee_lf_upArmWeight_jnt
+    400464: pepee_lf_upArmWeightSplit_1_jnt
+    400466: pepee_lf_upLeg_alignFalse_grp
+    400468: pepee_lf_upLeg_alignFalse_grp_frzGrp
+    400470: pepee_lf_upLeg_alignTrue_grp
+    400472: pepee_lf_upLeg_alignTrueLocTarg_grp
+    400474: pepee_lf_upLeg_alignTrueLocTarg_grp_frzGrp
+    400476: pepee_lf_upLeg_alignTrueLocTarg_grp_frzGrp 1
+    400478: pepee_lf_upLeg_alignTrueWrldTarg_grp
+    400480: pepee_lf_upLeg_autoAlign_rig_grp
+    400482: pepee_lf_upLeg_autoAlign_rig_grp_frzGrp
+    400484: pepee_lf_upLeg_fk_ctrl_frzGrp
+    400486: pepee_lf_upLeg_fk_ctrl_frzGrp 1
+    400488: pepee_lf_upLeg_fk_jnt
+    400490: pepee_lf_upLeg_ik_jnt
+    400492: pepee_lf_upLeg_jnt
+    400494: pepee_lf_upLeg_upJntFkCtrlAlign_grp
+    400496: pepee_lf_upLegCtrl_jnt
+    400498: pepee_lf_upLegCtrl_jnt_frzGrp
+    400500: pepee_lf_upLegCtrlSplit_1_jnt
+    400502: pepee_lf_upLegDnSplitCtrlParent_jnt
+    400504: pepee_lf_upLegPvCtrl_dist
+    400506: pepee_lf_upLegPvCtrl_dist_ep
+    400508: pepee_lf_upLegPvCtrl_dist_sp
+    400510: pepee_lf_upLegTwist_ikHandle
+    400512: pepee_lf_upLegTwistTarget_grp
+    400514: pepee_lf_upLegTwistTarget_grp_frzGrp
+    400516: pepee_lf_upLegTwistTarget_loc
+    400518: pepee_lf_upLegUpSplitCtrlParent_jnt
+    400520: pepee_lf_upLegUpSplitCtrlParent_jnt_frzGrp
+    400522: pepee_lf_upLegWeight_jnt
+    400524: pepee_lf_upLegWeightSplit_1_jnt
+    400526: pepee_lf_wrist_alignFalse_grp
+    400528: pepee_lf_wrist_alignFalse_grp_frzGrp
+    400530: pepee_lf_wrist_alignTrue_grp
+    400532: pepee_lf_wrist_alignTrueLocTarg_grp
+    400534: pepee_lf_wrist_alignTrueLocTarg_grp_frzGrp
+    400536: pepee_lf_wrist_alignTrueLocTarg_grp_frzGrp 1
+    400538: pepee_lf_wrist_alignTrueWrldTarg_grp
+    400540: pepee_lf_wrist_autoAlign_rig_grp
+    400542: pepee_lf_wrist_autoAlign_rig_grp_frzGrp
+    400544: pepee_lf_wrist_fk_ctrl_frzGrp
+    400546: pepee_lf_wrist_fk_ctrl_frzGrp 1
+    400548: pepee_lf_wrist_fk_jnt
+    400550: pepee_lf_wrist_ik_jnt
+    400552: pepee_lf_wrist_jnt
+    400554: pepee_lf_wrist_upJntFkCtrlAlign_grp
+    400556: pepee_lf_wristCtrl_jnt
+    400558: pepee_lf_wristWeight_jnt
+    400560: pepee_lfArmIkCtrl_space_switch_grp
+    400562: pepee_lfLegIkCtrl_space_switch_grp
+    400564: pepee_lowSpineCtrl_space_switch_grp
+    400566: pepee_masterSpine_ctrl_frzGrp
+    400568: pepee_masterSpineCtrl_space_switch_grp
+    400570: pepee_neck_ctrl_frzGrp
+    400572: pepee_neck_ctrl_frzGrp 1
+    400574: pepee_neck_fk_ctrl_Grp
+    400576: pepee_neck_jnt
+    400578: pepee_neckAlignFalse_Grp
+    400580: pepee_neckAlignTrue_Grp
+    400582: pepee_neckAutoAlign_Grp
+    400584: pepee_pantalon
+    400586: pepee_rig_grp
+    400588: pepee_root_ctrl_PH
+    400590: pepee_root_ctrl_SN
+    400592: pepee_rootCtrl_space_switch_grp
+    400594: pepee_rt_ankle_fk_ctrl_frzGrp
+    400596: pepee_rt_ankle_fk_ctrl_frzGrp 1
+    400598: pepee_rt_ankle_fk_jnt
+    400600: pepee_rt_ankle_ik_jnt
+    400602: pepee_rt_ankle_jnt
+    400604: pepee_rt_ankle_rev_rig_jnt
+    400606: pepee_rt_ankle_upJntFkCtrl_grp
+    400608: pepee_rt_ankleBallReader_Ankle_jnt
+    400610: pepee_rt_ankleBallReader_Ball_jnt
+    400612: pepee_rt_ankleBallReader_Knee_jnt
+    400614: pepee_rt_ankleBallReader_UpLeg_jnt
+    400616: pepee_rt_ankleCtrl_jnt
+    400618: pepee_rt_ankleWeight_jnt
+    400620: pepee_rt_arm_ik_ctrl_frzGrp
+    400622: pepee_rt_arm_ikHandle
+    400624: pepee_rt_arm_rig_grp
+    400626: pepee_rt_armFK_Grp
+    400628: pepee_rt_armIK_Grp
+    400630: pepee_rt_armIkCtrl_space_grp
+    400632: pepee_rt_armPvCtrlGrp_space_grp
+    400634: pepee_rt_armPvIkCtrl_dist
+    400636: pepee_rt_armPvIkCtrl_dist_ep
+    400638: pepee_rt_armPvIkCtrl_dist_sp
+    400640: pepee_rt_armStrDist_dist
+    400642: pepee_rt_armStrDist_dist_ep
+    400644: pepee_rt_armStrDist_dist_sp
+    400646: pepee_rt_ball_fk_ctrl_frzGrp
+    400648: pepee_rt_ball_fk_ctrl_frzGrp 1
+    400650: pepee_rt_ball_fk_jnt
+    400652: pepee_rt_ball_ik_jnt
+    400654: pepee_rt_ball_jnt
+    400656: pepee_rt_ball_rev_rig_jnt
+    400658: pepee_rt_ball_upJntFkCtrl_grp
+    400660: pepee_rt_ballToePar_ik_jnt
+    400662: pepee_rt_clavicle_fk_ctrl_frzGrp
+    400664: pepee_rt_clavicle_fk_ctrl_frzGrp 1
+    400666: pepee_rt_clavicle_jnt
+    400668: pepee_rt_clavicle_upJntFkCtrl_grp
+    400670: pepee_rt_elbow_fk_ctrl_frzGrp
+    400672: pepee_rt_elbow_fk_ctrl_frzGrp 1
+    400674: pepee_rt_elbow_fk_jnt
+    400676: pepee_rt_elbow_ik_jnt
+    400678: pepee_rt_elbow_jnt
+    400680: pepee_rt_elbow_line_loc
+    400682: pepee_rt_elbow_pv_ctrl_frzGrp
+    400684: pepee_rt_elbow_upJntFkCtrl_grp
+    400686: pepee_rt_elbowCtrl_jnt
+    400688: pepee_rt_elbowWeight_jnt
+    400690: pepee_rt_forearmdnTwistReader_jnt
+    400692: pepee_rt_forearmPvTwistReader_loc
+    400694: pepee_rt_forearmPvTwistReader_loc_frzGrp
+    400696: pepee_rt_forearmPvTwistReader_loc_frzGrp 1
+    400698: pepee_rt_forearmTwist_ctrl_frzGrp
+    400700: pepee_rt_forearmTwist_ikHandle
+    400702: pepee_rt_forearmTwist_loc
+    400704: pepee_rt_forearmTwist_loc_frzGrp
+    400706: pepee_rt_forearmTwistTarget_loc
+    400708: pepee_rt_forearmTwistTarget_loc_frzGrp
+    400710: pepee_rt_forearmUpTwistReader_jnt
+    400712: pepee_rt_forearmUpTwistReader_jnt_frzGrp
+    400714: pepee_rt_hand_ctrl_frzGrp
+    400716: pepee_rt_hand_ctrl_frzGrp 1
+    400718: pepee_rt_hand_jnt
+    400720: pepee_rt_hand_rig_grp
+    400722: pepee_rt_handCtrl_grp
+    400724: pepee_rt_heel_ik_ctrl_frzGrp
+    400726: pepee_rt_heel_rev_rig_jnt
+    400728: pepee_rt_index_a_jnt
+    400730: pepee_rt_index_b_jnt
+    400732: pepee_rt_index_c_jnt
+    400734: pepee_rt_index_d_jnt
+    400736: pepee_rt_indexBase_fk_ctrl_frzGrp
+    400738: pepee_rt_indexBase_fk_ctrl_frzGrp 1
+    400740: pepee_rt_indexMid_fk_ctrl_frzGrp
+    400742: pepee_rt_indexMid_fk_ctrl_frzGrp 1
+    400744: pepee_rt_indexTip_fk_ctrl_frzGrp
+    400746: pepee_rt_indexTip_fk_ctrl_frzGrp 1
+    400748: pepee_rt_knee_fk_ctrl_frzGrp
+    400750: pepee_rt_knee_fk_ctrl_frzGrp 1
+    400752: pepee_rt_knee_fk_jnt
+    400754: pepee_rt_knee_ik_jnt
+    400756: pepee_rt_knee_jnt
+    400758: pepee_rt_knee_line_loc
+    400760: pepee_rt_knee_pv_ctrl_frzGrp
+    400762: pepee_rt_knee_upJntFkCtrl_grp
+    400764: pepee_rt_kneeCtrl_jnt
+    400766: pepee_rt_kneeCtrlSplit_1_jnt
+    400768: pepee_rt_kneeWeight_jnt
+    400770: pepee_rt_kneeWeightSplit_1_jnt
+    400772: pepee_rt_leg_ikHandle
+    400774: pepee_rt_leg_rig_grp
+    400776: pepee_rt_legFK_Grp
+    400778: pepee_rt_legIK_Grp
+    400780: pepee_rt_legIkCtrl_space_grp
+    400782: pepee_rt_legPvCtrlGrp_space_grp
+    400784: pepee_rt_legPvIkCtrl_dist
+    400786: pepee_rt_legPvIkCtrl_dist_ep
+    400788: pepee_rt_legPvIkCtrl_dist_sp
+    400790: pepee_rt_legStrDist_dist
+    400792: pepee_rt_legStrDist_dist_ep
+    400794: pepee_rt_legStrDist_dist_sp
+    400796: pepee_rt_lowLegdnTwistReader_jnt
+    400798: pepee_rt_lowLegPvTwistReader_loc
+    400800: pepee_rt_lowLegPvTwistReader_loc_frzGrp
+    400802: pepee_rt_lowLegTwist_ctrl_frzGrp
+    400804: pepee_rt_lowLegTwist_ikHandle
+    400806: pepee_rt_lowLegTwist_loc
+    400808: pepee_rt_lowLegTwist_loc_frzGrp
+    400810: pepee_rt_lowLegTwistTarget_loc
+    400812: pepee_rt_lowLegTwistTarget_loc_frzGrp
+    400814: pepee_rt_lowLegUpTwistReader_jnt
+    400816: pepee_rt_lowLegUpTwistReader_jnt_frzGrp
+    400818: pepee_rt_masterIndex_ctrl_frzGrp
+    400820: pepee_rt_masterMiddle_ctrl_frzGrp
+    400822: pepee_rt_masterPinky_ctrl_frzGrp
+    400824: pepee_rt_masterRing_ctrl_frzGrp
+    400826: pepee_rt_masterThumb_ctrl_frzGrp
+    400828: pepee_rt_middle_a_jnt
+    400830: pepee_rt_middle_b_jnt
+    400832: pepee_rt_middle_c_jnt
+    400834: pepee_rt_middle_d_jnt
+    400836: pepee_rt_middleBase_fk_ctrl_frzGrp
+    400838: pepee_rt_middleBase_fk_ctrl_frzGrp 1
+    400840: pepee_rt_middleMid_fk_ctrl_frzGrp
+    400842: pepee_rt_middleMid_fk_ctrl_frzGrp 1
+    400844: pepee_rt_middleTip_fk_ctrl_frzGrp
+    400846: pepee_rt_middleTip_fk_ctrl_frzGrp 1
+    400848: pepee_rt_pinky_a_jnt
+    400850: pepee_rt_pinky_b_jnt
+    400852: pepee_rt_pinky_c_jnt
+    400854: pepee_rt_pinky_d_jnt
+    400856: pepee_rt_pinkyBase_fk_ctrl_frzGrp
+    400858: pepee_rt_pinkyBase_fk_ctrl_frzGrp 1
+    400860: pepee_rt_pinkyCup_jnt
+    400862: pepee_rt_pinkyMid_fk_ctrl_frzGrp
+    400864: pepee_rt_pinkyMid_fk_ctrl_frzGrp 1
+    400866: pepee_rt_pinkyTip_fk_ctrl_frzGrp
+    400868: pepee_rt_pinkyTip_fk_ctrl_frzGrp 1
+    400870: pepee_rt_reverseFoot_rig_grp
+    400872: pepee_rt_ring_a_jnt
+    400874: pepee_rt_ring_b_jnt
+    400876: pepee_rt_ring_c_jnt
+    400878: pepee_rt_ring_d_jnt
+    400880: pepee_rt_ringBase_fk_ctrl_frzGrp
+    400882: pepee_rt_ringBase_fk_ctrl_frzGrp 1
+    400884: pepee_rt_ringCup_jnt
+    400886: pepee_rt_ringMid_fk_ctrl_frzGrp
+    400888: pepee_rt_ringMid_fk_ctrl_frzGrp 1
+    400890: pepee_rt_ringTip_fk_ctrl_frzGrp
+    400892: pepee_rt_ringTip_fk_ctrl_frzGrp 1
+    400894: pepee_rt_thumb_a_jnt
+    400896: pepee_rt_thumb_b_jnt
+    400898: pepee_rt_thumb_c_jnt
+    400900: pepee_rt_thumb_d_jnt
+    400902: pepee_rt_thumbBase_fk_ctrl_frzGrp
+    400904: pepee_rt_thumbBase_fk_ctrl_frzGrp 1
+    400906: pepee_rt_thumbMid_fk_ctrl_frzGrp
+    400908: pepee_rt_thumbMid_fk_ctrl_frzGrp 1
+    400910: pepee_rt_thumbTip_fk_ctrl_frzGrp
+    400912: pepee_rt_thumbTip_fk_ctrl_frzGrp 1
+    400914: pepee_rt_toe_fk_jnt
+    400916: pepee_rt_toe_ik_jnt
+    400918: pepee_rt_toe_jnt
+    400920: pepee_rt_toe_rev_rig_jnt
+    400922: pepee_rt_upArm_alignFalse_grp
+    400924: pepee_rt_upArm_alignFalse_grp_frzGrp
+    400926: pepee_rt_upArm_alignTrue_grp
+    400928: pepee_rt_upArm_alignTrueLocTarg_grp
+    400930: pepee_rt_upArm_alignTrueLocTarg_grp_frzGrp
+    400932: pepee_rt_upArm_alignTrueLocTarg_grp_frzGrp 1
+    400934: pepee_rt_upArm_alignTrueWrldTarg_grp
+    400936: pepee_rt_upArm_autoAlign_rig_grp
+    400938: pepee_rt_upArm_autoAlign_rig_grp_frzGrp
+    400940: pepee_rt_upArm_fk_ctrl_frzGrp
+    400942: pepee_rt_upArm_fk_ctrl_frzGrp 1
+    400944: pepee_rt_upArm_fk_jnt
+    400946: pepee_rt_upArm_ik_jnt
+    400948: pepee_rt_upArm_jnt
+    400950: pepee_rt_upArm_upJntFkCtrlAlign_grp
+    400952: pepee_rt_upArmCtrl_jnt
+    400954: pepee_rt_upArmCtrl_jnt_frzGrp
+    400956: pepee_rt_upArmCtrlSplit_1_jnt
+    400958: pepee_rt_upArmPvCtrl_dist
+    400960: pepee_rt_upArmPvCtrl_dist_ep
+    400962: pepee_rt_upArmPvCtrl_dist_sp
+    400964: pepee_rt_upArmTwist_ikHandle
+    400966: pepee_rt_upArmTwistTarget_grp
+    400968: pepee_rt_upArmTwistTarget_grp_frzGrp
+    400970: pepee_rt_upArmTwistTarget_loc
+    400972: pepee_rt_upArmUpSplitCtrlParent_jnt
+    400974: pepee_rt_upArmUpSplitCtrlParent_jnt_frzGrp
+    400976: pepee_rt_upArmWeight_jnt
+    400978: pepee_rt_upArmWeightSplit_1_jnt
+    400980: pepee_rt_upLeg_alignFalse_grp
+    400982: pepee_rt_upLeg_alignFalse_grp_frzGrp
+    400984: pepee_rt_upLeg_alignTrue_grp
+    400986: pepee_rt_upLeg_alignTrueLocTarg_grp
+    400988: pepee_rt_upLeg_alignTrueLocTarg_grp_frzGrp
+    400990: pepee_rt_upLeg_alignTrueLocTarg_grp_frzGrp 1
+    400992: pepee_rt_upLeg_alignTrueWrldTarg_grp
+    400994: pepee_rt_upLeg_autoAlign_rig_grp
+    400996: pepee_rt_upLeg_autoAlign_rig_grp_frzGrp
+    400998: pepee_rt_upLeg_fk_ctrl_frzGrp
+    401000: pepee_rt_upLeg_fk_ctrl_frzGrp 1
+    401002: pepee_rt_upLeg_fk_jnt
+    401004: pepee_rt_upLeg_ik_jnt
+    401006: pepee_rt_upLeg_jnt
+    401008: pepee_rt_upLeg_upJntFkCtrlAlign_grp
+    401010: pepee_rt_upLegCtrl_jnt
+    401012: pepee_rt_upLegCtrl_jnt_frzGrp
+    401014: pepee_rt_upLegCtrlSplit_1_jnt
+    401016: pepee_rt_upLegDnSplitCtrlParent_jnt
+    401018: pepee_rt_upLegPvCtrl_dist
+    401020: pepee_rt_upLegPvCtrl_dist_ep
+    401022: pepee_rt_upLegPvCtrl_dist_sp
+    401024: pepee_rt_upLegTwist_ikHandle
+    401026: pepee_rt_upLegTwistTarget_grp
+    401028: pepee_rt_upLegTwistTarget_grp_frzGrp
+    401030: pepee_rt_upLegTwistTarget_loc
+    401032: pepee_rt_upLegUpSplitCtrlParent_jnt
+    401034: pepee_rt_upLegUpSplitCtrlParent_jnt_frzGrp
+    401036: pepee_rt_upLegWeight_jnt
+    401038: pepee_rt_upLegWeightSplit_1_jnt
+    401040: pepee_rt_wrist_alignFalse_grp
+    401042: pepee_rt_wrist_alignFalse_grp_frzGrp
+    401044: pepee_rt_wrist_alignTrue_grp
+    401046: pepee_rt_wrist_alignTrueLocTarg_grp
+    401048: pepee_rt_wrist_alignTrueLocTarg_grp_frzGrp
+    401050: pepee_rt_wrist_alignTrueLocTarg_grp_frzGrp 1
+    401052: pepee_rt_wrist_alignTrueWrldTarg_grp
+    401054: pepee_rt_wrist_autoAlign_rig_grp
+    401056: pepee_rt_wrist_autoAlign_rig_grp_frzGrp
+    401058: pepee_rt_wrist_fk_ctrl_frzGrp
+    401060: pepee_rt_wrist_fk_ctrl_frzGrp 1
+    401062: pepee_rt_wrist_fk_jnt
+    401064: pepee_rt_wrist_ik_jnt
+    401066: pepee_rt_wrist_jnt
+    401068: pepee_rt_wrist_upJntFkCtrlAlign_grp
+    401070: pepee_rt_wristCtrl_jnt
+    401072: pepee_rt_wristWeight_jnt
+    401074: pepee_rtArmIkCtrl_space_switch_grp
+    401076: pepee_rtLegIkCtrl_space_switch_grp
+    401078: pepee_sac
+    401080: pepee_sagayak
+    401082: pepee_sapka1
+    401084: pepee_sapka2
+    401086: pepee_sapka_top
+    401088: pepee_sapka_top2
+    401090: pepee_Skeleton_grp
+    401092: pepee_solayak
+    401094: pepee_spine_end_jnt
+    401096: pepee_spine_hi_jnt
+    401098: pepee_spine_low_jnt
+    401100: pepee_spine_mid_jnt
+    401102: pepee_spine_ribbon_surf
+    401104: pepee_spine_rig_grp
+    401106: pepee_spineHigh_ctrl_frzGrp
+    401108: pepee_spineHigh_ctrl_frzGrp 1
+    401110: pepee_spineLow_ctrl_frzGrp
+    401112: pepee_spineLow_ctrl_frzGrp 1
+    401114: pepee_spineMid_1_ctrl_frzGrp
+    401116: pepee_spineMid_1_ctrl_frzGrp 1
+    401118: pepee_spineNoScale_rig_grp
+    401120: pepee_spineRhFollicles_grp
+    401122: pepee_spineShaper_ctrl_frzGrp
+    401124: pepee_spineShaper_ctrl_frzGrp 1
+    401126: pepee_spineShaper_jnt
+    401128: pepee_tsort
+    401130: pepee_weightSpine_b_jnt
+    401132: pepee_weightSpine_c_jnt
+    401134: rt_armWeightJnt_grp
+    401136: rt_armWtCtrlJnt_grp
+    401138: rt_legWeightJnt_grp
+    401140: rt_legWtCtrlJnt_grp
+    401142: sapka_grp
+    401144: weightSpine_grp
+    2300000: pepee_sac
+    2300002: pepee_sapka1
+    2300004: pepee_sapka2
+    2300006: pepee_sapka_top
+    2300008: pepee_sapka_top2
+    3300000: pepee_sac
+    3300002: pepee_sapka1
+    3300004: pepee_sapka2
+    3300006: pepee_sapka_top
+    3300008: pepee_sapka_top2
+    4300000: pepee_sac
+    4300002: pepee_govde
+    4300004: pepee_pantalon
+    4300006: pepee_tsort
+    4300008: pepee_solayak
+    4300010: pepee_bag1
+    4300012: pepee_bag2
+    4300014: pepee_sagayak
+    4300016: pepee_bag3
+    4300018: pepee_bag4
+    4300020: pepee_sapka1
+    4300022: pepee_sapka_top
+    4300024: pepee_sapka2
+    4300026: pepee_sapka_top2
+    7400000: Konusma
+    7400002: elleryana
+    7400004: Iler'Bakma
+    7400006: Kosma
+    7400008: ZiplayipOturma
+    7400010: Yurume
+    7400012: DuzZiplama
+    7400014: DonerekZiplama
+    9500000: //RootNode
+    13700000: pepee_bag1
+    13700002: pepee_bag2
+    13700004: pepee_bag3
+    13700006: pepee_bag4
+    13700008: pepee_govde
+    13700010: pepee_pantalon
+    13700012: pepee_sagayak
+    13700014: pepee_solayak
+    13700016: pepee_tsort
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pepee_kafa
+    second: {fileID: 2100000, guid: 81267e9e30a725f4eaa849cb05efed12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pepee_pantalon
+    second: {fileID: 2100000, guid: 47b5095d9efd7f943ae55fab1659bc43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pepee_t_shirt
+    second: {fileID: 2100000, guid: 9ba960fb91a82b84c95a13598d6ed4d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert13
+    second: {fileID: 2100000, guid: 34d1afc0754c8bc4abfdca4bc8a8da02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pepee_Sapka_lambert11
+    second: {fileID: 2100000, guid: 57dc98a736b564f4fbde5b9e40e319bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pepee_ayakkabi_beyaz
+    second: {fileID: 2100000, guid: 0041867de286c1c45b2759e3959daa44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pepee_ayakkabi_kirmizi
+    second: {fileID: 2100000, guid: 9db652c67a117ad4d9d9f79aded407ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pepee_ayakkabi_yesil
+    second: {fileID: 2100000, guid: 7b6fd278cf23ded4fbccdb2e8e0a7777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pepee_govde_opacity
+    second: {fileID: 2100000, guid: aa3763c34559ccf4dbd0ea4650a8c0a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rsMaterial1
+    second: {fileID: 2100000, guid: 3fbd54ebf1445ad45bb32d85a7366b40, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Konusma
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: elleryana
+      takeName: Take 001
+      firstFrame: 78
+      lastFrame: 116
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Iler'Bakma
+      takeName: Take 001
+      firstFrame: 6
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Kosma
+      takeName: Take 001
+      firstFrame: 137
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ZiplayipOturma
+      takeName: Take 001
+      firstFrame: 148
+      lastFrame: 158
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Yurume
+      takeName: Take 001
+      firstFrame: 159
+      lastFrame: 168
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DuzZiplama
+      takeName: Take 001
+      firstFrame: 169
+      lastFrame: 181
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DonerekZiplama
+      takeName: Take 001
+      firstFrame: 182
+      lastFrame: 196
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
